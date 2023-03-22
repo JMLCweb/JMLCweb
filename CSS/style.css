@@ -1,0 +1,36 @@
+
+body{
+	background-color: gray;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	color: salmon;
+}
+
+h2{
+	text-align: center;
+	color: blueviolet;
+	font-size: 20px;
+}	
+
+.big{
+	font-size: 16px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.big.uppercase{
+	color: navy;
+}
+
+span{
+	color: violet;
+}
+
+h3{
+	text-align: center;
+}
