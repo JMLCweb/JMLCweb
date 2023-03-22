@@ -1,8 +1,7 @@
 body{
-	max-width: 100%;
 	margin: 0;
 	text-align: center;
-
+	background-image: url();
 
 }
 
@@ -15,7 +14,6 @@ header{
 	font-size: 17px;
 	padding: 3px;
 }
-}
 
 nav{
 	text-align: center;
@@ -27,17 +25,32 @@ h2{
 
 header img{
 	width: 80px;
+	border-radius: 20px
 }
 
 main{
 	max-width: 100%;
+
 }
 
 main div{
-
 	width: 100%;
 	text-align: center;
 
+}
+
+.instasocial{
+	width: 200px;
+	border: 1px solid rgba(32,35,121,1.00);
+
+}
+.tiktokocial{
+	width: 600px;
+	border: 1px solid rgba(32,35,121,1.00);
+}
+.facebooksocial{
+	width: 100%;
+	border: 1px solid rgba(32,35,121,1.00);
 }
 
 a{
@@ -45,22 +58,55 @@ a{
 }
 
 a:hover{
-	color: lightyellow;
+	color: #9B9B9B;
 }
 
+
+.instasocial{
+	color: white
+	
+}
 footer{
+	background-color: transparent;
 	margin: 0px;
-	background-color: black;
 	max-width: 100%;
-	text-align: center;
-	color: white;
+	text-align: space-between;
+
 }
 footer div img{
-	margin: 0;
-	width: 50px;
+	margin-top: -40;
+	width: 70px;
 }
-footer div{
-	margin: 0;
-	text-align: center;
+footer section{
+	
+}
+
+.jmlc {
+	margin: auto;
+	background-color: transparent;
+	
+}
+
+/* 
+Define this in your CSS 
+.bgColor = Replace it by the name you want to give your animation
+.bgAnimObj = Assign this class to the object you want to apply the effect
+*/
+
+.bgAnimObj {
+	background: #000000
+		;
+	/* Chrome, Safari */
+	-webkit-animation: bgColor 5s;
+}
+@-webkit-keyframes bgColor {
+	from {
+ 		background: #9E9E9E;
+	} 
+	to {
+ 		background: #ffc826;
+	}
 
 }
+
+
