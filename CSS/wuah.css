@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: black;
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	text-transform: uppercase;
+	font-size: 10px;
+
+}
+
+h2{
+	color: white;
+}
+
+header img{
+	width: 60px;
+	border-top: 10px;
+	border-color: black;
+
+}
+
+main{
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px ;
+
+}
+
+a{
+	color: gold;
+}
+a:hover{
+	color: lightyellow;
+
+}
+
+main img{
+	max-width: 100%;
+
+}
+
+footer{
+	background-color: black;
+	max-width: 100%;
+	text-align: center;
+	color: white;
+	padding: 1px;
+}
