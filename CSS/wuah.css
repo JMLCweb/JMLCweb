@@ -1,18 +1,24 @@
 body{
+	background-color: black;
 	margin: 0;
 }
 
 header{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	display: revert-layer;
 	background-color: black;
-	align-items: center;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 10px;
-	padding: 20px 20px;
+	font-size: 17px;
+	padding: 3px;
+}
+div{
+	margin: 0;
+	text-align: revert-layer;
+}
 
+nav{
+	justify-content: revert-layer;
+	text-align: center;
 }
 
 h2{
@@ -20,13 +26,12 @@ h2{
 }
 
 header img{
-	width: 60px;
-	border-top: 10px;
-	border-color: black;
-
+	width: 80px;
+	margin: 0;
 }
 
-main{
+main div{
+	background-color: gray;
 	max-width: 800px;
 	text-align: center;
 	margin: 0 auto;
@@ -52,5 +57,4 @@ footer{
 	max-width: 100%;
 	text-align: center;
 	color: white;
-	padding: 1px;
 }
