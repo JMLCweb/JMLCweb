@@ -1,9 +1,12 @@
 body{
+	background-color: black;
 	margin: 0;
 	text-align: center;
 }
 
+
 header{
+	margin: 0;
 	background-color: black;
 	width: 100%;
 	text-transform: uppercase;
@@ -11,24 +14,42 @@ header{
 	padding-bottom: 20px;
 }
 
-header img{
+header img{ 
+	background-color: black;
+	margin: 0;
 	max-width: 80px;
 }
 
-main{
+main video{
+	margin: 0;
 	max-width: 100%;
+	border-radius: 40%;
 }
-
-main div{
+main section{
+	border: 5px solid white;
+}
+main div img{
 	width: 100%;
-	text-align: center;
-}
-.intro{
-	box-sizing: border-box;
-	max-width: 1000px;
-  	position: relative;
-  	margin: auto;
 
+}
+.canvas{
+	display: inline-block;
+	width: 25%;
+}
+
+.designs{
+	display: inline-block;
+	width: 25%;
+
+}
+.frames{
+	display: inline-block;
+	width: 25%;
+
+}
+
+.intro{
+	color: white;
 }
 
 .instasocial{
@@ -61,6 +82,9 @@ a:hover{
 	color: #9B9B9B;
 }
 
+footer{
+	background-color: black;
+}
 
 footer div{
 	text-transform: uppercase;
@@ -71,8 +95,6 @@ footer div{
 
 
 .jmlc{
-	background-color: black;
-	border: 3px solid gray;
 	width: 7%;
 
 }
