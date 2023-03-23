@@ -1,56 +1,56 @@
 body{
 	margin: 0;
 	text-align: center;
-	background-image: url();
-
 }
 
 header{
-	max-width: 100%;
-	display: revert-layer;
 	background-color: black;
-	text-align: center;
+	width: 100%;
 	text-transform: uppercase;
-	font-size: 17px;
-	padding: 3px;
-}
-
-nav{
-	text-align: center;
-}
-
-h2{
-	color: white;
+	font-size: 20px;
+	padding-bottom: 20px;
 }
 
 header img{
-	width: 80px;
-	border-radius: 20px
+	max-width: 80px;
 }
 
 main{
 	max-width: 100%;
-
 }
 
 main div{
 	width: 100%;
 	text-align: center;
+}
+.intro{
+	box-sizing: border-box;
+	max-width: 1000px;
+  	position: relative;
+  	margin: auto;
 
 }
 
 .instasocial{
-	width: 200px;
-	border: 1px solid rgba(32,35,121,1.00);
+	display: inline-block;
+	width: 6%;
+	box-sizing: border-box;
+
 
 }
-.tiktokocial{
-	width: 600px;
-	border: 1px solid rgba(32,35,121,1.00);
+.tiktoksocial{
+	display: inline-block;
+	width: 6%;
+	box-sizing: border-box;
+
+
+
 }
 .facebooksocial{
-	width: 100%;
-	border: 1px solid rgba(32,35,121,1.00);
+	width: 4%;
+	box-sizing: border-box;
+	display: inline-block;
+	padding-bottom: 11px;
 }
 
 a{
@@ -62,51 +62,20 @@ a:hover{
 }
 
 
-.instasocial{
-	color: white
-	
-}
-footer{
+footer div{
+	text-transform: uppercase;
 	background-color: transparent;
-	margin: 0px;
-	max-width: 100%;
-	text-align: space-between;
+	text-align: center;
 
 }
-footer div img{
-	margin-top: -40;
-	width: 70px;
-}
-footer section{
-	
-}
 
-.jmlc {
-	margin: auto;
-	background-color: transparent;
-	
-}
 
-/* 
-Define this in your CSS 
-.bgColor = Replace it by the name you want to give your animation
-.bgAnimObj = Assign this class to the object you want to apply the effect
-*/
-
-.bgAnimObj {
-	background: #000000
-		;
-	/* Chrome, Safari */
-	-webkit-animation: bgColor 5s;
-}
-@-webkit-keyframes bgColor {
-	from {
- 		background: #9E9E9E;
-	} 
-	to {
- 		background: #ffc826;
-	}
+.jmlc{
+	background-color: black;
+	border: 3px solid gray;
+	width: 7%;
 
 }
+
 
 
