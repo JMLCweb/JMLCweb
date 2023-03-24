@@ -2,6 +2,10 @@ body{
 	background-color: black;
 	margin: 0;
 	text-align: center;
+	background-image: url('wuah/img/mundo.png');
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed; 
+   	background-size: cover;
 }
 
 
@@ -27,9 +31,12 @@ main video{
 }
 main section{
 	border: 5px solid white;
+	box-sizing: border-box;
 }
 main div img{
 	width: 100%;
+	box-sizing: border-box;
+
 
 }
 .canvas{
