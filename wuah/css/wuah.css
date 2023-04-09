@@ -2,15 +2,12 @@ body{
 	background-color: black;
 	margin: 0;
 	text-align: center;
-	background-image: url('wuah/img/mundo.png');
  	background-repeat: no-repeat;
   	background-attachment: fixed; 
    	background-size: 100% 100%;
 }
-
-
+ 
 header{
-	margin: 0;
 	background-color: black;
 	width: 100%;
 	text-transform: uppercase;
@@ -20,17 +17,13 @@ header{
 
 header img{ 
 	background-color: black;
-	margin: 0;
 	max-width: 80px;
 }
 
 main video{
-	margin: 0;
 	max-width: 100%;
-	border-radius: 40%;
 }
 main section{
-	border: 5px solid white;
 	box-sizing: border-box;
 }
 main div img{
@@ -57,7 +50,7 @@ main div img{
 
 .intro{
 	color: white;
-	border: 5px solid white;
+	border: 2px solid white;
 }
 
 .instasocial{
@@ -91,13 +84,11 @@ a:hover{
 }
 
 footer{
-	border: 5px solid white;
 	background-color: black;
 	padding: 10px;
 }
 
 footer div{
-	border: 5px solid white;
 	text-transform: uppercase;
 	background-color: transparent;
 	text-align: center;

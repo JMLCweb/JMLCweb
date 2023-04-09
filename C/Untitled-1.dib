@@ -1,0 +1,17 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"}]}}
+
+#!csharp
+
+ 
+string jmlcweb = "I'm JMLC";
+string follow = "Follow me!";
+
+
+
+
+
+Console.WriteLine("Hello Welcome!");
+Console.WriteLine("You can see me?");
+Console.WriteLine(jmlcweb);
