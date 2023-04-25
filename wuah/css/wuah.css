@@ -1,105 +1,96 @@
-body{
-	background-color: black;
-	margin: 0;
+body {
+  background-color: black;
+  margin: 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+header img {
+  background-color: black;
+  max-width: 120px;
+}
+
+p {
 	text-align: center;
- 	background-repeat: no-repeat;
-  	background-attachment: fixed; 
-   	background-size: 100% 100%;
-}
- 
-header{
-	background-color: black;
-	width: 100%;
-	text-transform: uppercase;
-	font-size: 20px;
-	padding-bottom: 20px;
+	font-size: 4ch;
 }
 
-header img{ 
-	background-color: black;
-	max-width: 80px;
+main video {
+  max-width: 100px;
+}
+main section {
+  box-sizing: border-box;
+  width: 100%;
+}
+main div img {
+  width: 100%;
+  box-sizing: border-box;
+}
+.canvas {
+  display: inline-block;
+  width: 25%;
 }
 
-main video{
-	max-width: 100%;
+.designs {
+  display: inline-block;
+  width: 25%;
 }
-main section{
-	box-sizing: border-box;
-}
-main div img{
-	width: 100%;
-	box-sizing: border-box;
-
-
-}
-.canvas{
-	display: inline-block;
-	width: 25%;
+.frames {
+  display: inline-block;
+  width: 25%;
 }
 
-.designs{
-	display: inline-block;
-	width: 25%;
-
-}
-.frames{
-	display: inline-block;
-	width: 25%;
-
+.intro {
+  color: white;
+  padding-top: 50px;
 }
 
-.intro{
-	color: white;
-	border: 2px solid white;
+.instasocial {
+  display: inline-block;
+  width: 6%;
+  box-sizing: border-box;
+}
+.tiktoksocial {
+  display: inline-block;
+  width: 6%;
+  box-sizing: border-box;
+}
+.facebooksocial {
+  width: 4.3%;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-bottom: 8px;
 }
 
-.instasocial{
-	display: inline-block;
-	width: 6%;
-	box-sizing: border-box;
-
-
-}
-.tiktoksocial{
-	display: inline-block;
-	width: 6%;
-	box-sizing: border-box;
-
-
-
-}
-.facebooksocial{
-	width: 4%;
-	box-sizing: border-box;
-	display: inline-block;
-	padding-bottom: 8px;
+a {
+  color: gold;
 }
 
-a{
-	color: gold;
+a:hover {
+  color: #9b9b9b;
 }
 
-a:hover{
-	color: #9B9B9B;
+footer {
+  background-color: black;
+  padding: 10px;
 }
 
-footer{
-	background-color: black;
-	padding: 10px;
+footer div {
+  text-transform: uppercase;
+  background-color: transparent;
+  text-align: center;
 }
 
-footer div{
-	text-transform: uppercase;
-	background-color: transparent;
-	text-align: center;
-
+.jmlc {
+  width: 7%;
 }
-
-
-.jmlc{
-	width: 7%;
-
-}
-
-
-
