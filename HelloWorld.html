@@ -7,29 +7,57 @@
             body {
                 background-color: black;
                 text-align: center;
-                padding: 100px;           
             }
             #jmlc_card{
-                background-color: rgb(187, 205, 205);
-                width: 300px;
-            }
-
-            #check_e-mail{
-                width: 300px;
-                background-color: antiquewhite;
+                background-color: rgb(43, 80, 80);
+                width: 100%;
+                height: 150px;
                 position: relative;
-                display: flex;
+                float: inline-end;
+                color: aliceblue;
+
             }
 
+            #check_e-mail {
+                width: 100%;
+                color: aliceblue;
+            }
             #card{
-                background-color: #000000;
-                position: relative;
-                width: 300px;
+                background-color: rgb(6, 79, 79);
+                width: 100%;
+            }
+
+        
+
+            #bar_down{
+                background-color: rgb(0, 0, 0);
+                border-style: dashed dashed dashed dashed;
+                border-width: 5px 5px 5px 5px;
+                border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255);
         
             }
+
+            #bar_top{
+                background-color: rgb(142, 172, 157);
+                border: 5px white dashed;
+
+            }
+
+            .bar{
+                width: 100px;
+                height: 100px;
+                float: left;
+                box-sizing: border-box;
+                width: 100%;
+
+            }
+          
         </style>
     </head>
     <body>
+       
+        <div id="bar_top" class="bar"></div>
+
         <div id="card">
             <img src="begetalogo.png" width="200px" alt="">
             
@@ -39,11 +67,22 @@
             <p>Check My Website!</p>
             <a href="https://jmlcwebdesign.com">Visit me!!!</a>
         </div>
-        <div id="check_e-mail">
-            <form>
-                <p><input type="text">Insert your e-mail!</p>
-                <p><input type="submit" value="Submit"></p>
-            </form>
+
+        <div id="socials">
+            <img src="wuah/img/insta.png" width="70px">
+            <img src="wuah/img/copyright.png" width="70px">
+
         </div>
+        <div id="bar_down" class="bar">
+            <div id="check_e-mail">
+                <form class="form_position">
+                    <p><input type="text">Insert your e-mail!</p>
+                    <p><input type="submit" value="Submit"></p>
+                </form>
+            </div>
+        </div>
+       
+        
+        
     </body>
 </html>  
